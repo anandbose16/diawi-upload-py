@@ -1,0 +1,8 @@
+{
+  "diawi_token": "Your Diawi Token (Get one from here: https://dashboard.diawi.com/profile/api)",
+  "artifacts": {
+    "app-flavor1-debug.apk": "Flavor1 Debug",
+    "app-flavor2-debug.apk": "Flavor2 Debug"
+  }
+}
+
