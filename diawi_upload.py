@@ -86,7 +86,7 @@ for i in range(len(apk_files)):
 		artifacts = config['artifacts']
 		if apk_file in artifacts:
 			line += str(artifacts[apk_file])
-		else
+		else:
 			line += str(apk_file)
 	line += " - "
 	line += str(diawi_links[i])
