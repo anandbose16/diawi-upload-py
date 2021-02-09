@@ -30,8 +30,8 @@ $ python3 diawi_upload.py
 Uploading 2/2
 Checking 2/2
 Done
-Google Play version debug - app-googleplay.debug.apk - https://i.diawi.com/aBcD3f
-Fdroid version debug - app-fdroid-debug.apk - https://i.diawi.com/kLmN0p
+Google Play version debug - https://i.diawi.com/aBcD3f
+Fdroid version debug - https://i.diawi.com/kLmN0p
 ```
 ## License
 ```
