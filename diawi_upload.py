@@ -49,12 +49,12 @@ def diawi_check_job(job_id, iter_count=0):
 	
 def get_apk_files():
 	files = list()
-	for (dirpath, dirnames, filenames) in os.walk('app/build/outputs/apk/'):
+	for (dirpath, dirnames, filenames) in os.walk('.'):
 		for filename in filenames:
-			if filename.endswith('.apk'):
+			if filename.endswith('.apk') or filename.endswith('.ipa'):
 				files.append(os.path.join(dirpath, filename))
 	return files
-		
+
 apk_files = get_apk_files()
 job_ids = list()
 diawi_links = list()
